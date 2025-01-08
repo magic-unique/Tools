@@ -219,3 +219,14 @@
 }
 
 @end
+
+@implementation MUPath (NSFastEnumeration)
+
+- (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(__unsafe_unretained id _Nullable[])buffer count:(NSUInteger)len {
+    if (!self.isDirectory) {
+        return 0;
+    }
+    return [self.contents countByEnumeratingWithState:state objects:buffer count:len];
+}
+
+@end

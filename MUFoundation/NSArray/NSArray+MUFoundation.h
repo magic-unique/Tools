@@ -27,8 +27,11 @@
 
 - (ObjectType _Nullable)mu_firstObjectByFilter:(BOOL (^_Nonnull)(ObjectType _Nonnull object))filter;
 
-@property (readonly, nonnull) id _Nullable (^mu_reduct)(id _Nullable (^_Nonnull)(id _Nullable, ObjectType _Nonnull));
-- (id _Nullable)mu_reduct:(id _Nullable (^_Nonnull)(id _Nullable, ObjectType _Nonnull))block;
+@property (readonly, nonnull) id _Nullable (^mu_reduce)(id _Nullable (^_Nonnull)(id _Nullable, ObjectType _Nonnull));
+- (id _Nullable)mu_reduce:(id _Nullable (^_Nonnull)(id _Nullable, ObjectType _Nonnull))block;
+
++ (NSUInteger)mu_enumTreeForRoots:(NSArray<id> * _Nonnull)roots
+                            block:(NSArray<id> * _Nullable(^ _Nonnull)(id _Nonnull object, NSUInteger index, BOOL * _Nonnull stop))block;
 
 @end
 

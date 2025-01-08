@@ -24,4 +24,13 @@
     return nil;
 }
 
+- (id)JSON {
+    if (self.isFile) {
+        NSData *data = [NSData dataWithContentsOfFile:self.string];
+        id json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+        return json;
+    }
+    return nil;
+}
+
 @end

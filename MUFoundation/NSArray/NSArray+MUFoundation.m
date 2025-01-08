@@ -85,34 +85,44 @@
 - (NSArray<id> *)mu_arrayByFilter:(BOOL (^)(id))filter {
     NSMutableArray *array = [NSMutableArray array];
     for (id obj in self) {
-        if (filter(obj)) {
-            [array addObject:obj];
-        }
+        if (filter(obj)) [array addObject:obj];
     }
     return array;
 }
 
 - (id)mu_firstObjectByFilter:(BOOL (^)(id))filter {
     for (id obj in self) {
-        if (filter(obj)) {
-            return obj;
-        }
+        if (filter(obj)) return obj;
     }
     return nil;
 }
 
-- (id (^)(id (^)(id, id)))mu_reduct {
+- (id (^)(id (^)(id, id)))mu_reduce {
     return ^id(id (^block)(id, id)) {
-        return [self mu_reduct:block];
+        return [self mu_reduce:block];
     };
 }
 
-- (id)mu_reduct:(id (^)(id, id))block {
+- (id)mu_reduce:(id (^)(id, id))block {
     id result = nil;
     for (id obj in self) {
         result = block(result, obj);
     }
     return result;
+}
+
++ (NSUInteger)mu_enumTreeForRoots:(NSArray<id> *)roots block:(NSArray<id> * _Nullable (^)(id _Nonnull, NSUInteger, BOOL * _Nonnull))block {
+    NSAssert(roots.count > 0, @"Root must contains a member");
+    NSMutableArray *nodes = [roots mutableCopy];
+    NSUInteger index = 0;
+    while (nodes.count) {
+        id obj = nodes.firstObject; [nodes removeObjectAtIndex:0];
+        BOOL stop = NO;
+        NSArray *subnodes = block(obj, index++, &stop);
+        if (stop) break;
+        if (subnodes) [nodes addObjectsFromArray:subnodes];
+    }
+    return index;
 }
 
 @end

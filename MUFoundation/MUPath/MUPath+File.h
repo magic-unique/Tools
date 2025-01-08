@@ -9,8 +9,10 @@
 
 @interface MUPath (File)
 
-@property (nonatomic, copy, readonly, nullable) NSDictionary *dictionary;
+@property (readonly, nullable) NSDictionary *dictionary;
 
-@property (nonatomic, copy, readonly, nullable) NSArray *array;
+@property (readonly, nullable) NSArray *array;
+
+@property (readonly, nullable) id JSON;
 
 @end

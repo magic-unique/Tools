@@ -1,6 +1,6 @@
 {
   "name": "MUFoundation",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "summary": "Magic-Unique's foundation frameworks",
   "description": "Incloud UIKit/Foundation category, some tools.",
   "homepage": "https://github.com/Magic-Unique/Tools",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/Magic-Unique/Tools.git",
-    "tag": "0.0.6"
+    "tag": "1.0.0"
   },
   "subspecs": [
     {
@@ -36,6 +36,14 @@
     {
       "name": "NSArray",
       "source_files": "MUFoundation/NSArray"
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "MUFoundation/NSDictionary"
+    },
+    {
+      "name": "NSSet",
+      "source_files": "MUFoundation/NSSet"
     }
   ]
 }

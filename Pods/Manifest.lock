@@ -1,15 +1,19 @@
 PODS:
-  - MUFoundation (0.0.6):
-    - MUFoundation/MUFirstTime (= 0.0.6)
-    - MUFoundation/MUPath (= 0.0.6)
-    - MUFoundation/MUVersion (= 0.0.6)
-    - MUFoundation/NSArray (= 0.0.6)
-    - MUFoundation/NSString (= 0.0.6)
-  - MUFoundation/MUFirstTime (0.0.6)
-  - MUFoundation/MUPath (0.0.6)
-  - MUFoundation/MUVersion (0.0.6)
-  - MUFoundation/NSArray (0.0.6)
-  - MUFoundation/NSString (0.0.6)
+  - MUFoundation (1.0.0):
+    - MUFoundation/MUFirstTime (= 1.0.0)
+    - MUFoundation/MUPath (= 1.0.0)
+    - MUFoundation/MUVersion (= 1.0.0)
+    - MUFoundation/NSArray (= 1.0.0)
+    - MUFoundation/NSDictionary (= 1.0.0)
+    - MUFoundation/NSSet (= 1.0.0)
+    - MUFoundation/NSString (= 1.0.0)
+  - MUFoundation/MUFirstTime (1.0.0)
+  - MUFoundation/MUPath (1.0.0)
+  - MUFoundation/MUVersion (1.0.0)
+  - MUFoundation/NSArray (1.0.0)
+  - MUFoundation/NSDictionary (1.0.0)
+  - MUFoundation/NSSet (1.0.0)
+  - MUFoundation/NSString (1.0.0)
 
 DEPENDENCIES:
   - MUFoundation (from `.`)
@@ -19,7 +23,7 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  MUFoundation: b8e7f5c5077e23b9af23a888aa34eeab88d265de
+  MUFoundation: 4d874923f513b16cc54116a6e3cdfa1d673f653c
 
 PODFILE CHECKSUM: 01a7c8b93062076c7bf08d48c2023ad5fdbf7621
 

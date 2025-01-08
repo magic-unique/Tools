@@ -10,14 +10,14 @@
 
 @interface MUPath : NSObject
 
-@property (nonatomic, strong, readonly) NSString *string;
-@property (nonatomic, strong, readonly) NSURL *fileURL;
+@property (readonly) NSString *string;
+@property (readonly) NSURL *fileURL;
 
-@property (nonatomic, strong, readonly) MUPath *superpath;
+@property (readonly) MUPath *superpath;
 
-@property (nonatomic, strong, readonly) NSString *pathExtension;
+@property (readonly) NSString *pathExtension;
 @property (nonatomic, strong, readonly) NSArray<NSString *> *pathComponents;
-@property (nonatomic, strong, readonly) NSString *lastPathComponent;
+@property (readonly) NSString *lastPathComponent;
 
 - (instancetype)init;
 + (instancetype)path;
@@ -34,5 +34,7 @@
 - (instancetype)pathByReplacingLastPathComponent:(NSString *)lastPathComponent;
 
 - (NSString *)relativeStringToPath:(MUPath *)path;
+
+- (id)objectAtIndexedSubscript:(NSInteger)idx; // API_AVAILABLE(macos(10.8), ios(6.0), watchos(2.0), tvos(9.0))
 
 @end

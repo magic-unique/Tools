@@ -155,4 +155,20 @@ Pod::Spec.new do |s|
     ss.source_files = 'MUFoundation/NSArray'
   end
 
+  s.subspec 'NSDictionary' do |ss|
+    ss.source_files = 'MUFoundation/NSDictionary'
+  end
+
+  s.subspec 'NSSet' do |ss|
+    ss.source_files = 'MUFoundation/NSSet'
+  end
+
+  s.subspec 'Queue' do |ss|
+    ss.source_files = 'MUFoundation/Queue'
+  end
+
+  s.subspec 'Stack' do |ss|
+    ss.source_files = 'MUFoundation/Stack'
+  end
+
 end

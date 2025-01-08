@@ -164,4 +164,45 @@ static NSString *MUGetFullPathString(NSString *path) {
     return [NSString stringWithFormat:@"<%@ path=\"%@\">", self.class, self.string];
 }
 
+- (BOOL)respondsToSelector:(SEL)aSelector {
+    if ([self.string respondsToSelector:aSelector]) {
+        return YES;
+    }
+    return [super respondsToSelector:aSelector];
+}
+
+- (id)forwardingTargetForSelector:(SEL)aSelector {
+    if ([self.string respondsToSelector:aSelector]) {
+        return self.string;
+    } else {
+        return [super forwardingTargetForSelector:aSelector];
+    }
+}
+
+- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+    NSMethodSignature *signature = [super methodSignatureForSelector:aSelector];
+    if (signature) {
+        return signature;
+    }
+    signature = [self.string methodSignatureForSelector:aSelector];
+    return signature;
+}
+
+- (void)forwardInvocation:(NSInvocation *)anInvocation {
+    [anInvocation invokeWithTarget:self.string];
+}
+
+- (id)objectAtIndexedSubscript:(NSInteger)idx // API_AVAILABLE(macos(10.8), ios(6.0), watchos(2.0), tvos(9.0))
+{
+    NSInteger length = self.pathComponents.count;
+    if (idx < 0) {
+        idx = length + idx;
+    }
+    if (idx < length) {
+        return self.pathComponents[idx];
+    } else {
+        return nil;
+    }
+}
+
 @end

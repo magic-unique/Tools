@@ -9,6 +9,6 @@
 
 @interface MUPath (Hash)
 
-@property (nonatomic, strong, readonly, nullable) NSString *MD5;
+@property (readonly, nullable) NSString *MD5;
 
 @end

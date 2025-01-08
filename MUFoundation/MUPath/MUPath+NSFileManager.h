@@ -16,27 +16,27 @@ typedef NS_ENUM(NSUInteger, MUPathType) {
 
 @interface MUPath (NSFileManager)
 
-@property (nonatomic, assign, readonly) MUPathType type;
+@property (readonly) MUPathType type;
 
-@property (nonatomic, assign, readonly, getter=isExist) BOOL exist;
+@property (readonly, getter=isExist) BOOL exist;
 
-@property (nonatomic, assign, readonly, getter=isDirectory) BOOL directory;
+@property (readonly, getter=isDirectory) BOOL directory;
 
-@property (nonatomic, assign, readonly, getter=isFile) BOOL file;
+@property (readonly, getter=isFile) BOOL file;
 
-@property (nonatomic, assign, readonly, getter=isReadable) BOOL readable;
+@property (readonly, getter=isReadable) BOOL readable;
 
-@property (nonatomic, assign, readonly, getter=isWritable) BOOL writable;
+@property (readonly, getter=isWritable) BOOL writable;
 
-@property (nonatomic, assign, readonly, getter=isExecutable) BOOL executable;
+@property (readonly, getter=isExecutable) BOOL executable;
 
-@property (nonatomic, assign, readonly, getter=isDeletable) BOOL deletable;
+@property (readonly, getter=isDeletable) BOOL deletable;
 
-@property (nonatomic, strong, readonly) NSArray<MUPath *> *contents;
-@property (nonatomic, strong, readonly) NSArray<MUPath *> *files;
-@property (nonatomic, strong, readonly) NSArray<MUPath *> *directories;
+@property (readonly) NSArray<MUPath *> *contents;
+@property (readonly) NSArray<MUPath *> *files;
+@property (readonly) NSArray<MUPath *> *directories;
 
-@property (nonatomic, strong) NSDictionary *attributes;
+@property (readwrite) NSDictionary *attributes;
 
 - (NSUInteger)enumerateContentsUsingBlock:(void (^)(MUPath *content, BOOL *stop))block;
 - (NSArray<MUPath *> *)contentsWithFilter:(BOOL (^)(MUPath *content))filter;
@@ -54,5 +54,10 @@ typedef NS_ENUM(NSUInteger, MUPathType) {
 - (NSError *)moveTo:(MUPath *)destinationPath autoCover:(BOOL)autoCover;
 - (NSError *)moveInto:(MUPath *)distinationDirectoryPath autoCover:(BOOL)autoCover;
 - (NSError *)moveContentsInto:(MUPath *)distinationDirectoryPath autoCover:(BOOL)autoCover;
+
+@end
+
+
+@interface MUPath (NSFastEnumeration) <NSFastEnumeration>
 
 @end

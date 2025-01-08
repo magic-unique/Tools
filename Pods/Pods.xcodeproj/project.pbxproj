@@ -7,33 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B2BE8B4BDB9604D8C463381B766C0A /* NSArray+MUFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 016092958555B09C59EA104F04FE5489 /* NSArray+MUFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		07CBB717143C05E39E7FF8A80CFD3430 /* MUPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C48411D028B059FDDFD5C6BDD9609D6 /* MUPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		012ACDA5C4D657740A5C4457E26DC28B /* NSArray+MUFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0111C9C35C45143A4A71F2CA9EB455CC /* NSArray+MUFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0512AE4A88711F7AE4FA75C1E4ED2437 /* NSString+MUFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4C5D7306329B60BAEBCCDAC8640CC /* NSString+MUFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0CE6F30A665448E4AC420B5101470172 /* Pods-Tools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA13271905AC54403A667635D53DD42 /* Pods-Tools-dummy.m */; };
-		0D3C83898DB2D29EA363B111EAE2C841 /* MUPath+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BECABE21E475BA1BA47D7B22021BFC5 /* MUPath+File.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		255A06151560BA165673108C10037D3D /* MUPath+Main.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DDFF77BA71971E3080B31A79947945 /* MUPath+Main.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2CB2AA9C5DCA716AA8A3BDF0C006D274 /* NSArray+MUFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F7B856DFDC2FD6AA0C9512985245EF /* NSArray+MUFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3A5031DAA031F147BBB0C7EAF3B35BAB /* MUVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 24540F771487053DF7D677A35997446E /* MUVersion.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		40FB6A8CEBA78C31DA7672FB79A78E9D /* MUPath+Sandbox.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DD15CBA4A5ADF38E56651F673C1E1A /* MUPath+Sandbox.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4769AADCC05B4C7D219C5C472FB374C6 /* MUPath+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B5E12C33F0218CAA88DFC43406C333 /* MUPath+Hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BBE8291FA321D28B69254973C2C1198 /* MUFirstTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A66D8AD60F7791BDD7E617E07151A370 /* MUFirstTime.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		53E24F91F1F5F713597886A44751D0A2 /* MUPath+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B7248F62D7846513B18A61FD53D839 /* MUPath+Hash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5E1ECC855660FEE2A1F4ED3435690E78 /* MUPath+NSFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 499613A76A2A9355CBA020CF78ADFFB2 /* MUPath+NSFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		65903AC638B6318D8270A13F5284DF5A /* MUFirstTime.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3C0508EA8A3AA102522D88D93DF577 /* MUFirstTime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		71E40516988F4B604A2D5A1BF5CAEE6C /* NSString+MUFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60532EEEEC7A4616AF20E20AE0844890 /* NSString+MUFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7C5E0D5738C072AC489E15956466F506 /* NSString+MUFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D06FF3FCC7E182C327B7DEF00F1CE9DF /* NSString+MUFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		84C50155DF79428CD33AF9314D3197AA /* MUFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461703633892B3D392E96535657C233 /* MUFoundation-dummy.m */; };
-		931EE6571F80F2651157B055710C5D6D /* MUPath+Path.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F750417C49D33BB52B0BB02EFF08DCF /* MUPath+Path.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ABC30B27BCC3037CDA9007FC20C6AA6A /* MUPath+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 717143DE5E4D2086E7E9D402DF5E422E /* MUPath+Path.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AF366DC1E425BA2CA83E1C148FC1ACF3 /* MUPath+NSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C324E6A4443AF820E2DB5EAA48532 /* MUPath+NSFileManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C4832CB473FD5FB7DCB4E2D3C2745379 /* MUPath+Sandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BDB4D13755C0172BCD23979002753E /* MUPath+Sandbox.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF08E04589C0A341EA279CCA512F51F8 /* MUVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = B6012814207F11475C6CB284770FA00A /* MUVersion.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F7DC69DB640C1DE7AA5C94F2F1ED65C0 /* MUPath+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A881378DCC7AD22FE0695CDF69004BC /* MUPath+Main.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FD1CD22C6384C3F970460DF40369AC22 /* MUPath+File.h in Headers */ = {isa = PBXBuildFile; fileRef = 860ED1206835F22970FA6A3EF7378AFE /* MUPath+File.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F6EFDE3128EBF8B6D1255C0E488151D /* NSDictionary+MUFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4E949AE41ABD74A24227B80A9D678B /* NSDictionary+MUFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26400EBDD17EA512E55E6A9CD188FAD2 /* MUFirstTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FE9E6FE70DA847262C3A75B537003 /* MUFirstTime.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2B4C96C1EFEF3ED16363167C58650773 /* MUPath+Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = F86279BCF702C8D0487C5AA15C1C4C1F /* MUPath+Hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32CD1F8A5A94149A18622CCD5763D6C1 /* MUPath+Path.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AF5EC4220F900B089FCBF8F327B84F /* MUPath+Path.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33BBB692257A935AA212CBFFE0CED45A /* MUPath+File.m in Sources */ = {isa = PBXBuildFile; fileRef = E14FDC373BAB7058777EDF77BC549C3C /* MUPath+File.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		34D497405AC3C86D559BEB198FE879CD /* NSSet+MUFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0B490ADA184DC5B59760629B22FADD /* NSSet+MUFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CA271E85CCAF11BE9A3A6CF12614372 /* NSArray+MUFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CDF8AB3DAE387F9C56277F45CB5529 /* NSArray+MUFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		427C23FFCF4DED23942BB906A7646D45 /* MUPath+Sandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 624CFF054ADBC7449363184CECF61687 /* MUPath+Sandbox.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46DBECF17389E50F44BCFAC8E5229F74 /* MUPath.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCB141C32AA02FB3A5182295F9EEDB5 /* MUPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47C6B204327EAD408750E5A1296F879B /* MUFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D74283A7CE072F2D48C9D3AAFEBEB3 /* MUFoundation-dummy.m */; };
+		68B39117D84D5815D548E498804B31EB /* MUPath+File.h in Headers */ = {isa = PBXBuildFile; fileRef = D06AA5A2D3AFEE73249BB2A85CAD8E6F /* MUPath+File.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76FF3272B6E6FC23C1511182097E2A20 /* MUVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = A28911246740B5BF3A0667DCC3601BAA /* MUVersion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86CFE06F058F71D01FCEE20C3D16A182 /* MUPath+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = D952C0925428EA727F8CA12E497C1CDC /* MUPath+Path.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8979E11C4C5BA746F689423E8A988769 /* MUPath+Main.h in Headers */ = {isa = PBXBuildFile; fileRef = EB20C4404AF5C3CB2159A77F72A28027 /* MUPath+Main.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A94770B573AF597DCDBC15FB207F05F2 /* NSSet+MUFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAE9F0E6323F15CE65BD6818AC9E75E /* NSSet+MUFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C9614265B60CD2400DC553974794B6A7 /* MUPath+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = CABAA6F1444431B44B86F76696EF7347 /* MUPath+Main.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D683AF7D44CEEA21EEC420942CBE42AC /* MUVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF963F8D35C15EAE0F5D00F833E69F2 /* MUVersion.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EA987F73D3306AAC649A2A7DE34C6FFE /* NSDictionary+MUFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C969CECB948946D28581AA06F131E38A /* NSDictionary+MUFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EBA19B9564A8651738C10863EAC58546 /* MUFirstTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2169CDC746EB92F5406977D4E28882C8 /* MUFirstTime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED7D41BCDA29DCEA34F741766B626AC4 /* MUPath+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = CF77C2FA37524117633891710EB5875C /* MUPath+Hash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE822F6D824D13D157503156EB9AD718 /* MUPath+Sandbox.h in Headers */ = {isa = PBXBuildFile; fileRef = F67DD883BC053290B2DE29D9FEEE3550 /* MUPath+Sandbox.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFAA7EE85743693076717CC5F9BAA234 /* MUPath+NSFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 41CC2AB2D860E371803E0C8A1C6034A2 /* MUPath+NSFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F08EC397D54AB7095F24DFE5A2FDD19C /* MUPath+NSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFCA47FD579E10EA49E79483F82BF7 /* MUPath+NSFileManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC9738661B2D51B820A19A03164E5C2F /* NSString+MUFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B9706231378FDAE5EA9FB873B9969F60 /* NSString+MUFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F893227C035D81253F3F5039DA03CDA /* PBXContainerItemProxy */ = {
+		224118E2DB8D249E476E1BD8CEAF33D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -43,53 +47,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016092958555B09C59EA104F04FE5489 /* NSArray+MUFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MUFoundation.h"; path = "MUFoundation/NSArray/NSArray+MUFoundation.h"; sourceTree = "<group>"; };
-		03BDB4D13755C0172BCD23979002753E /* MUPath+Sandbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Sandbox.m"; path = "MUFoundation/MUPath/MUPath+Sandbox.m"; sourceTree = "<group>"; };
-		0461703633892B3D392E96535657C233 /* MUFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MUFoundation-dummy.m"; sourceTree = "<group>"; };
-		0F750417C49D33BB52B0BB02EFF08DCF /* MUPath+Path.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Path.h"; path = "MUFoundation/MUPath/MUPath+Path.h"; sourceTree = "<group>"; };
-		24540F771487053DF7D677A35997446E /* MUVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUVersion.h; path = MUFoundation/MUVersion/MUVersion.h; sourceTree = "<group>"; };
-		2C154727A0615DDA19533D7BADC9F0F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		31F7B856DFDC2FD6AA0C9512985245EF /* NSArray+MUFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MUFoundation.m"; path = "MUFoundation/NSArray/NSArray+MUFoundation.m"; sourceTree = "<group>"; };
-		3A7C324E6A4443AF820E2DB5EAA48532 /* MUPath+NSFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+NSFileManager.m"; path = "MUFoundation/MUPath/MUPath+NSFileManager.m"; sourceTree = "<group>"; };
-		3FEBDAC137E71138EC54D7CB91B4295F /* MUFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUFoundation.debug.xcconfig; sourceTree = "<group>"; };
-		4722AEC384851DD8AA6580E614C10EC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		499613A76A2A9355CBA020CF78ADFFB2 /* MUPath+NSFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+NSFileManager.h"; path = "MUFoundation/MUPath/MUPath+NSFileManager.h"; sourceTree = "<group>"; };
-		5A881378DCC7AD22FE0695CDF69004BC /* MUPath+Main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Main.m"; path = "MUFoundation/MUPath/MUPath+Main.m"; sourceTree = "<group>"; };
-		5BECABE21E475BA1BA47D7B22021BFC5 /* MUPath+File.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+File.m"; path = "MUFoundation/MUPath/MUPath+File.m"; sourceTree = "<group>"; };
+		0111C9C35C45143A4A71F2CA9EB455CC /* NSArray+MUFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MUFoundation.h"; path = "MUFoundation/NSArray/NSArray+MUFoundation.h"; sourceTree = "<group>"; };
+		20CDF8AB3DAE387F9C56277F45CB5529 /* NSArray+MUFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MUFoundation.m"; path = "MUFoundation/NSArray/NSArray+MUFoundation.m"; sourceTree = "<group>"; };
+		2134B890C9B33A12D26D6DFDEE068072 /* MUFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUFoundation-prefix.pch"; sourceTree = "<group>"; };
+		2169CDC746EB92F5406977D4E28882C8 /* MUFirstTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUFirstTime.h; path = MUFoundation/MUFirstTime/MUFirstTime.h; sourceTree = "<group>"; };
+		2BB4C5D7306329B60BAEBCCDAC8640CC /* NSString+MUFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MUFoundation.m"; path = "MUFoundation/NSString/NSString+MUFoundation.m"; sourceTree = "<group>"; };
+		2CAE9F0E6323F15CE65BD6818AC9E75E /* NSSet+MUFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+MUFoundation.m"; path = "MUFoundation/NSSet/NSSet+MUFoundation.m"; sourceTree = "<group>"; };
+		3C1708E3F0011DC7A858DA2BC9727275 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D4FE9E6FE70DA847262C3A75B537003 /* MUFirstTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MUFirstTime.m; path = MUFoundation/MUFirstTime/MUFirstTime.m; sourceTree = "<group>"; };
+		41CC2AB2D860E371803E0C8A1C6034A2 /* MUPath+NSFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+NSFileManager.h"; path = "MUFoundation/MUPath/MUPath+NSFileManager.h"; sourceTree = "<group>"; };
 		5D1C44B058377F8B5A24549603278007 /* Pods-Tools */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Tools"; path = "libPods-Tools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60532EEEEC7A4616AF20E20AE0844890 /* NSString+MUFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MUFoundation.m"; path = "MUFoundation/NSString/NSString+MUFoundation.m"; sourceTree = "<group>"; };
-		61B5E12C33F0218CAA88DFC43406C333 /* MUPath+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Hash.h"; path = "MUFoundation/MUPath/MUPath+Hash.h"; sourceTree = "<group>"; };
-		717143DE5E4D2086E7E9D402DF5E422E /* MUPath+Path.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Path.m"; path = "MUFoundation/MUPath/MUPath+Path.m"; sourceTree = "<group>"; };
-		768B5025424C215957D569AD19F275F7 /* MUFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MUFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E0B490ADA184DC5B59760629B22FADD /* NSSet+MUFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+MUFoundation.h"; path = "MUFoundation/NSSet/NSSet+MUFoundation.h"; sourceTree = "<group>"; };
+		620B300881A55EA0BC5055802C15B911 /* MUFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MUFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		624CFF054ADBC7449363184CECF61687 /* MUPath+Sandbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Sandbox.m"; path = "MUFoundation/MUPath/MUPath+Sandbox.m"; sourceTree = "<group>"; };
+		68AF5EC4220F900B089FCBF8F327B84F /* MUPath+Path.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Path.h"; path = "MUFoundation/MUPath/MUPath+Path.h"; sourceTree = "<group>"; };
 		7D87755A1A0E995E6FF385076A8C9377 /* Pods-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tools.release.xcconfig"; sourceTree = "<group>"; };
-		860ED1206835F22970FA6A3EF7378AFE /* MUPath+File.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+File.h"; path = "MUFoundation/MUPath/MUPath+File.h"; sourceTree = "<group>"; };
+		8A7A9D5E0E8402B284EAC81610ED29F7 /* MUFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		8CF963F8D35C15EAE0F5D00F833E69F2 /* MUVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MUVersion.m; path = MUFoundation/MUVersion/MUVersion.m; sourceTree = "<group>"; };
 		9054F88F3C1D63F77D8BC8A3FE8B1164 /* MUFoundation */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MUFoundation; path = libMUFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		95DDFF77BA71971E3080B31A79947945 /* MUPath+Main.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Main.h"; path = "MUFoundation/MUPath/MUPath+Main.h"; sourceTree = "<group>"; };
-		9C48411D028B059FDDFD5C6BDD9609D6 /* MUPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUPath.h; path = MUFoundation/MUPath/MUPath.h; sourceTree = "<group>"; };
 		9D1948ED9E2A9DE2217FD900E906FA80 /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A66D8AD60F7791BDD7E617E07151A370 /* MUFirstTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MUFirstTime.m; path = MUFoundation/MUFirstTime/MUFirstTime.m; sourceTree = "<group>"; };
-		B506F440C1B34F1B678927040221806B /* MUFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUFoundation.release.xcconfig; sourceTree = "<group>"; };
+		A28911246740B5BF3A0667DCC3601BAA /* MUVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUVersion.h; path = MUFoundation/MUVersion/MUVersion.h; sourceTree = "<group>"; };
+		A3D74283A7CE072F2D48C9D3AAFEBEB3 /* MUFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MUFoundation-dummy.m"; sourceTree = "<group>"; };
 		B5DF8232C342C792A819F08986EA5045 /* Pods-Tools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tools-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6012814207F11475C6CB284770FA00A /* MUVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MUVersion.m; path = MUFoundation/MUVersion/MUVersion.m; sourceTree = "<group>"; };
+		B9706231378FDAE5EA9FB873B9969F60 /* NSString+MUFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MUFoundation.h"; path = "MUFoundation/NSString/NSString+MUFoundation.h"; sourceTree = "<group>"; };
+		C6EFCA47FD579E10EA49E79483F82BF7 /* MUPath+NSFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+NSFileManager.m"; path = "MUFoundation/MUPath/MUPath+NSFileManager.m"; sourceTree = "<group>"; };
+		C969CECB948946D28581AA06F131E38A /* NSDictionary+MUFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MUFoundation.m"; path = "MUFoundation/NSDictionary/NSDictionary+MUFoundation.m"; sourceTree = "<group>"; };
+		C9D8EF2EF708DE76DDB3EF2AB38F1ACA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CAA13271905AC54403A667635D53DD42 /* Pods-Tools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tools-dummy.m"; sourceTree = "<group>"; };
-		D06FF3FCC7E182C327B7DEF00F1CE9DF /* NSString+MUFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MUFoundation.h"; path = "MUFoundation/NSString/NSString+MUFoundation.h"; sourceTree = "<group>"; };
-		D5B7248F62D7846513B18A61FD53D839 /* MUPath+Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Hash.m"; path = "MUFoundation/MUPath/MUPath+Hash.m"; sourceTree = "<group>"; };
-		D7DD15CBA4A5ADF38E56651F673C1E1A /* MUPath+Sandbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Sandbox.h"; path = "MUFoundation/MUPath/MUPath+Sandbox.h"; sourceTree = "<group>"; };
+		CABAA6F1444431B44B86F76696EF7347 /* MUPath+Main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Main.m"; path = "MUFoundation/MUPath/MUPath+Main.m"; sourceTree = "<group>"; };
+		CCD6FC8ECF3EF9289422F28D14874D9D /* MUFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUFoundation.release.xcconfig; sourceTree = "<group>"; };
+		CF77C2FA37524117633891710EB5875C /* MUPath+Hash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Hash.m"; path = "MUFoundation/MUPath/MUPath+Hash.m"; sourceTree = "<group>"; };
+		D06AA5A2D3AFEE73249BB2A85CAD8E6F /* MUPath+File.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+File.h"; path = "MUFoundation/MUPath/MUPath+File.h"; sourceTree = "<group>"; };
+		D952C0925428EA727F8CA12E497C1CDC /* MUPath+Path.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+Path.m"; path = "MUFoundation/MUPath/MUPath+Path.m"; sourceTree = "<group>"; };
 		DDC82F34566603DD89D784A9174E51CF /* Pods-Tools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tools-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F4D5AFDF4AB653277EE7AE7FA6EA8A7F /* MUFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUFoundation-prefix.pch"; sourceTree = "<group>"; };
-		FA3C0508EA8A3AA102522D88D93DF577 /* MUFirstTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUFirstTime.h; path = MUFoundation/MUFirstTime/MUFirstTime.h; sourceTree = "<group>"; };
+		E14FDC373BAB7058777EDF77BC549C3C /* MUPath+File.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MUPath+File.m"; path = "MUFoundation/MUPath/MUPath+File.m"; sourceTree = "<group>"; };
+		EB20C4404AF5C3CB2159A77F72A28027 /* MUPath+Main.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Main.h"; path = "MUFoundation/MUPath/MUPath+Main.h"; sourceTree = "<group>"; };
+		ED4E949AE41ABD74A24227B80A9D678B /* NSDictionary+MUFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MUFoundation.h"; path = "MUFoundation/NSDictionary/NSDictionary+MUFoundation.h"; sourceTree = "<group>"; };
+		F67DD883BC053290B2DE29D9FEEE3550 /* MUPath+Sandbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Sandbox.h"; path = "MUFoundation/MUPath/MUPath+Sandbox.h"; sourceTree = "<group>"; };
+		F86279BCF702C8D0487C5AA15C1C4C1F /* MUPath+Hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MUPath+Hash.h"; path = "MUFoundation/MUPath/MUPath+Hash.h"; sourceTree = "<group>"; };
+		FDCB141C32AA02FB3A5182295F9EEDB5 /* MUPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MUPath.h; path = MUFoundation/MUPath/MUPath.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C3C23BF078E7C27EAD056FC26D17CD0 /* Frameworks */ = {
+		5262CF9D814C887F779732FF66195869 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5262CF9D814C887F779732FF66195869 /* Frameworks */ = {
+		844ABFAB28F65D169546F6E166AAB523 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,31 +107,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CD95485A07D24CB644FC570E2A0B163 /* Development Pods */ = {
+		0BA2F65EEBB42532F4EBFD52B155244E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BCEF3A3A4684DD68D9193D0D6922E7B /* MUFoundation */,
+				0D1C9913DC4180941CC47E506DECA2BA /* MUFoundation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1C1DC8F1A87BA9D8637DA1837876383F /* Pod */ = {
+		0D1C9913DC4180941CC47E506DECA2BA /* MUFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				4722AEC384851DD8AA6580E614C10EC2 /* LICENSE */,
-				768B5025424C215957D569AD19F275F7 /* MUFoundation.podspec */,
-				2C154727A0615DDA19533D7BADC9F0F4 /* README.md */,
+				8855F92A5EF502CA5C94A0C8600D560E /* MUFirstTime */,
+				92FFE520FA744F29673D450AA34DA345 /* MUPath */,
+				AE8B644FE213EBA32B2CA660DB2A4400 /* MUVersion */,
+				299D312D3A96A6019B8AFF1C7B2BC46E /* NSArray */,
+				E95BF18CD0AE333D6A494ED608F67520 /* NSDictionary */,
+				C9E12BB8EF53731B2A50EBD44D067097 /* NSSet */,
+				444C1AFB8CBA4C309AD7204D0DD1333D /* NSString */,
+				9B88F193E1C71375EFD41351A53146AD /* Pod */,
+				653279C27FAD0C1DD5A3A101C3A399E9 /* Support Files */,
 			);
-			name = Pod;
+			name = MUFoundation;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		2943EE698E72E8365FE58061FCF1EE1E /* NSString */ = {
+		299D312D3A96A6019B8AFF1C7B2BC46E /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				D06FF3FCC7E182C327B7DEF00F1CE9DF /* NSString+MUFoundation.h */,
-				60532EEEEC7A4616AF20E20AE0844890 /* NSString+MUFoundation.m */,
+				0111C9C35C45143A4A71F2CA9EB455CC /* NSArray+MUFoundation.h */,
+				20CDF8AB3DAE387F9C56277F45CB5529 /* NSArray+MUFoundation.m */,
 			);
-			name = NSString;
+			name = NSArray;
 			sourceTree = "<group>";
 		};
 		37672CB52C10BBCFE4660BC3DF0E22D2 /* Targets Support Files */ = {
@@ -134,51 +149,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3BC33DF9EAB498E2DEBE3DD10A2EA085 /* Support Files */ = {
+		444C1AFB8CBA4C309AD7204D0DD1333D /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				0461703633892B3D392E96535657C233 /* MUFoundation-dummy.m */,
-				F4D5AFDF4AB653277EE7AE7FA6EA8A7F /* MUFoundation-prefix.pch */,
-				3FEBDAC137E71138EC54D7CB91B4295F /* MUFoundation.debug.xcconfig */,
-				B506F440C1B34F1B678927040221806B /* MUFoundation.release.xcconfig */,
+				B9706231378FDAE5EA9FB873B9969F60 /* NSString+MUFoundation.h */,
+				2BB4C5D7306329B60BAEBCCDAC8640CC /* NSString+MUFoundation.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		653279C27FAD0C1DD5A3A101C3A399E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D74283A7CE072F2D48C9D3AAFEBEB3 /* MUFoundation-dummy.m */,
+				2134B890C9B33A12D26D6DFDEE068072 /* MUFoundation-prefix.pch */,
+				8A7A9D5E0E8402B284EAC81610ED29F7 /* MUFoundation.debug.xcconfig */,
+				CCD6FC8ECF3EF9289422F28D14874D9D /* MUFoundation.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/MUFoundation";
-			sourceTree = "<group>";
-		};
-		5BCEF3A3A4684DD68D9193D0D6922E7B /* MUFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				A0EFA60D8F105D79BB62DD4F48B333D8 /* MUFirstTime */,
-				6A315F8BA0D7E01F03A13043FD8EDE11 /* MUPath */,
-				DF997147AD7217FCE44BB8F83F1EFE0D /* MUVersion */,
-				A1AFE282932076CF8B1314D3A852A195 /* NSArray */,
-				2943EE698E72E8365FE58061FCF1EE1E /* NSString */,
-				1C1DC8F1A87BA9D8637DA1837876383F /* Pod */,
-				3BC33DF9EAB498E2DEBE3DD10A2EA085 /* Support Files */,
-			);
-			name = MUFoundation;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6A315F8BA0D7E01F03A13043FD8EDE11 /* MUPath */ = {
-			isa = PBXGroup;
-			children = (
-				9C48411D028B059FDDFD5C6BDD9609D6 /* MUPath.h */,
-				860ED1206835F22970FA6A3EF7378AFE /* MUPath+File.h */,
-				5BECABE21E475BA1BA47D7B22021BFC5 /* MUPath+File.m */,
-				61B5E12C33F0218CAA88DFC43406C333 /* MUPath+Hash.h */,
-				D5B7248F62D7846513B18A61FD53D839 /* MUPath+Hash.m */,
-				95DDFF77BA71971E3080B31A79947945 /* MUPath+Main.h */,
-				5A881378DCC7AD22FE0695CDF69004BC /* MUPath+Main.m */,
-				499613A76A2A9355CBA020CF78ADFFB2 /* MUPath+NSFileManager.h */,
-				3A7C324E6A4443AF820E2DB5EAA48532 /* MUPath+NSFileManager.m */,
-				0F750417C49D33BB52B0BB02EFF08DCF /* MUPath+Path.h */,
-				717143DE5E4D2086E7E9D402DF5E422E /* MUPath+Path.m */,
-				D7DD15CBA4A5ADF38E56651F673C1E1A /* MUPath+Sandbox.h */,
-				03BDB4D13755C0172BCD23979002753E /* MUPath+Sandbox.m */,
-			);
-			name = MUPath;
 			sourceTree = "<group>";
 		};
 		6FA80D3F26CC5BC93A320481C47532F7 /* Pods-Tools */ = {
@@ -194,22 +183,52 @@
 			path = "Target Support Files/Pods-Tools";
 			sourceTree = "<group>";
 		};
-		A0EFA60D8F105D79BB62DD4F48B333D8 /* MUFirstTime */ = {
+		8855F92A5EF502CA5C94A0C8600D560E /* MUFirstTime */ = {
 			isa = PBXGroup;
 			children = (
-				FA3C0508EA8A3AA102522D88D93DF577 /* MUFirstTime.h */,
-				A66D8AD60F7791BDD7E617E07151A370 /* MUFirstTime.m */,
+				2169CDC746EB92F5406977D4E28882C8 /* MUFirstTime.h */,
+				3D4FE9E6FE70DA847262C3A75B537003 /* MUFirstTime.m */,
 			);
 			name = MUFirstTime;
 			sourceTree = "<group>";
 		};
-		A1AFE282932076CF8B1314D3A852A195 /* NSArray */ = {
+		92FFE520FA744F29673D450AA34DA345 /* MUPath */ = {
 			isa = PBXGroup;
 			children = (
-				016092958555B09C59EA104F04FE5489 /* NSArray+MUFoundation.h */,
-				31F7B856DFDC2FD6AA0C9512985245EF /* NSArray+MUFoundation.m */,
+				FDCB141C32AA02FB3A5182295F9EEDB5 /* MUPath.h */,
+				D06AA5A2D3AFEE73249BB2A85CAD8E6F /* MUPath+File.h */,
+				E14FDC373BAB7058777EDF77BC549C3C /* MUPath+File.m */,
+				F86279BCF702C8D0487C5AA15C1C4C1F /* MUPath+Hash.h */,
+				CF77C2FA37524117633891710EB5875C /* MUPath+Hash.m */,
+				EB20C4404AF5C3CB2159A77F72A28027 /* MUPath+Main.h */,
+				CABAA6F1444431B44B86F76696EF7347 /* MUPath+Main.m */,
+				41CC2AB2D860E371803E0C8A1C6034A2 /* MUPath+NSFileManager.h */,
+				C6EFCA47FD579E10EA49E79483F82BF7 /* MUPath+NSFileManager.m */,
+				68AF5EC4220F900B089FCBF8F327B84F /* MUPath+Path.h */,
+				D952C0925428EA727F8CA12E497C1CDC /* MUPath+Path.m */,
+				F67DD883BC053290B2DE29D9FEEE3550 /* MUPath+Sandbox.h */,
+				624CFF054ADBC7449363184CECF61687 /* MUPath+Sandbox.m */,
 			);
-			name = NSArray;
+			name = MUPath;
+			sourceTree = "<group>";
+		};
+		9B88F193E1C71375EFD41351A53146AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3C1708E3F0011DC7A858DA2BC9727275 /* LICENSE */,
+				620B300881A55EA0BC5055802C15B911 /* MUFoundation.podspec */,
+				C9D8EF2EF708DE76DDB3EF2AB38F1ACA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE8B644FE213EBA32B2CA660DB2A4400 /* MUVersion */ = {
+			isa = PBXGroup;
+			children = (
+				A28911246740B5BF3A0667DCC3601BAA /* MUVersion.h */,
+				8CF963F8D35C15EAE0F5D00F833E69F2 /* MUVersion.m */,
+			);
+			name = MUVersion;
 			sourceTree = "<group>";
 		};
 		C4C63EA20FE2AE511A46D61D1CA155DB /* Products */ = {
@@ -221,11 +240,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C9E12BB8EF53731B2A50EBD44D067097 /* NSSet */ = {
+			isa = PBXGroup;
+			children = (
+				5E0B490ADA184DC5B59760629B22FADD /* NSSet+MUFoundation.h */,
+				2CAE9F0E6323F15CE65BD6818AC9E75E /* NSSet+MUFoundation.m */,
+			);
+			name = NSSet;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0CD95485A07D24CB644FC570E2A0B163 /* Development Pods */,
+				0BA2F65EEBB42532F4EBFD52B155244E /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				C4C63EA20FE2AE511A46D61D1CA155DB /* Products */,
 				37672CB52C10BBCFE4660BC3DF0E22D2 /* Targets Support Files */,
@@ -239,40 +267,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF997147AD7217FCE44BB8F83F1EFE0D /* MUVersion */ = {
+		E95BF18CD0AE333D6A494ED608F67520 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				24540F771487053DF7D677A35997446E /* MUVersion.h */,
-				B6012814207F11475C6CB284770FA00A /* MUVersion.m */,
+				ED4E949AE41ABD74A24227B80A9D678B /* NSDictionary+MUFoundation.h */,
+				C969CECB948946D28581AA06F131E38A /* NSDictionary+MUFoundation.m */,
 			);
-			name = MUVersion;
+			name = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		53A01EB47EA74AC3D029273CB15EAA28 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65903AC638B6318D8270A13F5284DF5A /* MUFirstTime.h in Headers */,
-				07CBB717143C05E39E7FF8A80CFD3430 /* MUPath.h in Headers */,
-				FD1CD22C6384C3F970460DF40369AC22 /* MUPath+File.h in Headers */,
-				4769AADCC05B4C7D219C5C472FB374C6 /* MUPath+Hash.h in Headers */,
-				255A06151560BA165673108C10037D3D /* MUPath+Main.h in Headers */,
-				5E1ECC855660FEE2A1F4ED3435690E78 /* MUPath+NSFileManager.h in Headers */,
-				931EE6571F80F2651157B055710C5D6D /* MUPath+Path.h in Headers */,
-				40FB6A8CEBA78C31DA7672FB79A78E9D /* MUPath+Sandbox.h in Headers */,
-				3A5031DAA031F147BBB0C7EAF3B35BAB /* MUVersion.h in Headers */,
-				04B2BE8B4BDB9604D8C463381B766C0A /* NSArray+MUFoundation.h in Headers */,
-				7C5E0D5738C072AC489E15956466F506 /* NSString+MUFoundation.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7C7FFEA50F956199FE850656B22F848E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98745818AC5359EA857C694A22949D09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA19B9564A8651738C10863EAC58546 /* MUFirstTime.h in Headers */,
+				46DBECF17389E50F44BCFAC8E5229F74 /* MUPath.h in Headers */,
+				68B39117D84D5815D548E498804B31EB /* MUPath+File.h in Headers */,
+				2B4C96C1EFEF3ED16363167C58650773 /* MUPath+Hash.h in Headers */,
+				8979E11C4C5BA746F689423E8A988769 /* MUPath+Main.h in Headers */,
+				EFAA7EE85743693076717CC5F9BAA234 /* MUPath+NSFileManager.h in Headers */,
+				32CD1F8A5A94149A18622CCD5763D6C1 /* MUPath+Path.h in Headers */,
+				EE822F6D824D13D157503156EB9AD718 /* MUPath+Sandbox.h in Headers */,
+				76FF3272B6E6FC23C1511182097E2A20 /* MUVersion.h in Headers */,
+				012ACDA5C4D657740A5C4457E26DC28B /* NSArray+MUFoundation.h in Headers */,
+				0F6EFDE3128EBF8B6D1255C0E488151D /* NSDictionary+MUFoundation.h in Headers */,
+				34D497405AC3C86D559BEB198FE879CD /* NSSet+MUFoundation.h in Headers */,
+				FC9738661B2D51B820A19A03164E5C2F /* NSString+MUFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4DA1D3C46D2D8B692C18D7ED2BD4E392 /* PBXTargetDependency */,
+				DA75B45AA29A42E568DC15D1A7760D82 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tools";
 			productName = "Pods-Tools";
@@ -299,11 +329,11 @@
 		};
 		E26B78988ECFD0E94F6654616213CEFB /* MUFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94A0CB437246BD5A696E29B722A26C17 /* Build configuration list for PBXNativeTarget "MUFoundation" */;
+			buildConfigurationList = 83F06C37706588C3030F751303C820D2 /* Build configuration list for PBXNativeTarget "MUFoundation" */;
 			buildPhases = (
-				53A01EB47EA74AC3D029273CB15EAA28 /* Headers */,
-				8ED9FDC2EEB3C04114A62F7FF0E14C71 /* Sources */,
-				1C3C23BF078E7C27EAD056FC26D17CD0 /* Frameworks */,
+				98745818AC5359EA857C694A22949D09 /* Headers */,
+				EAB954DADA2B6903955E1BC4B61B518C /* Sources */,
+				844ABFAB28F65D169546F6E166AAB523 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,32 +381,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ED9FDC2EEB3C04114A62F7FF0E14C71 /* Sources */ = {
+		EAB954DADA2B6903955E1BC4B61B518C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBE8291FA321D28B69254973C2C1198 /* MUFirstTime.m in Sources */,
-				84C50155DF79428CD33AF9314D3197AA /* MUFoundation-dummy.m in Sources */,
-				0D3C83898DB2D29EA363B111EAE2C841 /* MUPath+File.m in Sources */,
-				53E24F91F1F5F713597886A44751D0A2 /* MUPath+Hash.m in Sources */,
-				F7DC69DB640C1DE7AA5C94F2F1ED65C0 /* MUPath+Main.m in Sources */,
-				AF366DC1E425BA2CA83E1C148FC1ACF3 /* MUPath+NSFileManager.m in Sources */,
-				ABC30B27BCC3037CDA9007FC20C6AA6A /* MUPath+Path.m in Sources */,
-				C4832CB473FD5FB7DCB4E2D3C2745379 /* MUPath+Sandbox.m in Sources */,
-				CF08E04589C0A341EA279CCA512F51F8 /* MUVersion.m in Sources */,
-				2CB2AA9C5DCA716AA8A3BDF0C006D274 /* NSArray+MUFoundation.m in Sources */,
-				71E40516988F4B604A2D5A1BF5CAEE6C /* NSString+MUFoundation.m in Sources */,
+				26400EBDD17EA512E55E6A9CD188FAD2 /* MUFirstTime.m in Sources */,
+				47C6B204327EAD408750E5A1296F879B /* MUFoundation-dummy.m in Sources */,
+				33BBB692257A935AA212CBFFE0CED45A /* MUPath+File.m in Sources */,
+				ED7D41BCDA29DCEA34F741766B626AC4 /* MUPath+Hash.m in Sources */,
+				C9614265B60CD2400DC553974794B6A7 /* MUPath+Main.m in Sources */,
+				F08EC397D54AB7095F24DFE5A2FDD19C /* MUPath+NSFileManager.m in Sources */,
+				86CFE06F058F71D01FCEE20C3D16A182 /* MUPath+Path.m in Sources */,
+				427C23FFCF4DED23942BB906A7646D45 /* MUPath+Sandbox.m in Sources */,
+				D683AF7D44CEEA21EEC420942CBE42AC /* MUVersion.m in Sources */,
+				3CA271E85CCAF11BE9A3A6CF12614372 /* NSArray+MUFoundation.m in Sources */,
+				EA987F73D3306AAC649A2A7DE34C6FFE /* NSDictionary+MUFoundation.m in Sources */,
+				A94770B573AF597DCDBC15FB207F05F2 /* NSSet+MUFoundation.m in Sources */,
+				0512AE4A88711F7AE4FA75C1E4ED2437 /* NSString+MUFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DA1D3C46D2D8B692C18D7ED2BD4E392 /* PBXTargetDependency */ = {
+		DA75B45AA29A42E568DC15D1A7760D82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MUFoundation;
 			target = E26B78988ECFD0E94F6654616213CEFB /* MUFoundation */;
-			targetProxy = 3F893227C035D81253F3F5039DA03CDA /* PBXContainerItemProxy */;
+			targetProxy = 224118E2DB8D249E476E1BD8CEAF33D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -447,9 +479,31 @@
 			};
 			name = Debug;
 		};
-		4C9B222170283DE552D01CA309BA5969 /* Release */ = {
+		2D62BB0D59A7B8A2BBB8236E867E2CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B506F440C1B34F1B678927040221806B /* MUFoundation.release.xcconfig */;
+			baseConfigurationReference = 8A7A9D5E0E8402B284EAC81610ED29F7 /* MUFoundation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MUFoundation/MUFoundation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MUFoundation;
+				PRODUCT_NAME = MUFoundation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3AC20388B7182D0C7B43996BD01636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD6FC8ECF3EF9289422F28D14874D9D /* MUFoundation.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -490,28 +544,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		92B381FE4D202A552927181E6594FFB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FEBDAC137E71138EC54D7CB91B4295F /* MUFoundation.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MUFoundation/MUFoundation-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MUFoundation;
-				PRODUCT_NAME = MUFoundation;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		95A468276AB4DADC3BD3E27F5E4E2542 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -616,11 +648,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94A0CB437246BD5A696E29B722A26C17 /* Build configuration list for PBXNativeTarget "MUFoundation" */ = {
+		83F06C37706588C3030F751303C820D2 /* Build configuration list for PBXNativeTarget "MUFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B381FE4D202A552927181E6594FFB3 /* Debug */,
-				4C9B222170283DE552D01CA309BA5969 /* Release */,
+				2D62BB0D59A7B8A2BBB8236E867E2CB9 /* Debug */,
+				3D3AC20388B7182D0C7B43996BD01636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
